@@ -31,7 +31,6 @@ void drawAntiAliasedLineWASFilter(Frame* frame, Vect p0, Vect p1) {
     drawAALine(frame, p0, p1, false);
 }
 
-// One option: 
 void drawAALine(Frame* frame, Vect p0, Vect p1, bool useBoxFilter) {
   Vect start = p0;
   Vect end = p1;
